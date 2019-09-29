@@ -18,5 +18,18 @@ public class Main {
         }
 
         System.out.println("while döngüsü bitti");
+
+
+        //Do-While Döngüsü
+        /*do-while döngüsünde önce işlem yapılır sonra çalıştırılır. while de önce koşullar kontrol ettirilir ve sonra
+        * kodun çalışıp çalışmadığı anlaşılır*/
+
+        int j=1;
+        do {
+
+            System.out.println(j);
+            j=j+2;
+
+        }while (j<10);
     }
 }
